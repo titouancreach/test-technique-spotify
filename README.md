@@ -38,4 +38,4 @@ Pour compiler le front, on utilisera: `npm run watch ou npm run build`
 **Remarques :**
 - Il est possible d'utiliser toutes les nouvelles features de C#/dotnet, d'installer des plugins aussi bien front que back.  
 Soyez créatif.
-- Pensez à commit vos modifications au fur et à mesure de votre avancement. Si vous n'arrivez pas au bout du test, pas de panique, cela nous permettra de voir votre cheminement et la manière dont vous avez approcher le développement.  
+- Pensez à commiter vos modifications au fur et à mesure de votre avancement. Si vous n'arrivez pas au bout du test, pas de panique, cela nous permettra de voir votre cheminement et la manière dont vous avez approché le développement.  
