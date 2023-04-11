@@ -10,7 +10,7 @@ Les fonctionnalités de l'application seront les suivantes :
      - *1/5 => "la musique ne me plait pas "* 🙁
      - *5/5 => "j'adore cette musique"* 😍
    - Une note d'originalité (note bleue sur les maquettes)  
-     - 1/5 => "J'ai déjà entendue cette musique 1000 fois !" 😴
+     - 1/5 => "J'ai déjà entendu cette musique 1000 fois !" 😴
      - 5/5 => "Superbe découverte" 🤘
 
 L'application est composée de 2 pages :
