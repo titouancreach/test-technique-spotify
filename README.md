@@ -3,15 +3,15 @@
 ### Fonctionalités de l'application
 
 Les fonctionnalités de l'application seront les suivantes :
- - Pouvoir rechercher des titres de chanson sur Spotify
- - Ajouter les chansons recherchées à une bibliothèque 
+ - Pouvoir rechercher des titres de chanson sur Spotify (ou autre)
+ - Ajouter les chansons recherchées à une bibliothèque
  - Pouvoir noter les chansons selon 2 critères :
    - Une note indiquant notre goût (note jaune sur les maquettes) 
      - *1/5 => "la musique ne me plait pas "* 🙁
-     - *5/5 => "C'est la meilleure musique que j'ai jamais écoutée !"* 😍
+     - *5/5 => "j'adore cette musique"* 😍
    - Une note d'originalité (note bleue sur les maquettes)  
      - 1/5 => "J'ai déjà entendue cette musique 1000 fois !" 😴
-     - 5/5 => "Qu'est-ce que c'est que cette dinguerie ?" 🤘
+     - 5/5 => "Superbe découverte" 🤘
 
 L'application est composée de 2 pages :
 - la première liste tous les titres de notre bibliothèque, et permet de les noter. Les titres sont ordonnés par la moyenne des deux critères. 
@@ -21,13 +21,13 @@ L'application est composée de 2 pages :
 
 ### Démarrage du projet (application dotnet core 7)
 
-Côté backend, on utilisera comme base, le code de ce repository qui contient une application dotnet core, Entity Framework et une base de donnée vierge SQLite.
+Côté backend, on utilisera comme base, le code de ce repository qui contient le squelette une application dotnet core, Entity Framework et une base de donnée vierge SQLite.
 
 Pour l'UI, on utilisera TailwindCSS (inclu dans le template).
 
 Pour lancer le projet, on rentre dans le répertoire `./TestTechniqueSpotify` puis on exécute la commande `dotnet run` ou on ouvre le projet avec VSCode, puis on lance le projet depuis le menu `Debug`.
 
-Pour compiler le front, on utilisera: `npm run watch ou npm run build`
+Pour compiler le front, on utilisera: `npm run watch` ou `npm run build`
 
 
 ### Consignes
@@ -35,7 +35,9 @@ Pour compiler le front, on utilisera: `npm run watch ou npm run build`
 - Implémenter une version des 2 écrans à l'image des maquettes proposées ci-dessus
 - L'implémentation doit tenir compte des fonctionnalités mentionées ci-dessus
 
+Il est possible de prendre des libertés avec l'énoncé.
+
 **Remarques :**
 - Il est possible d'utiliser toutes les nouvelles features de C#/dotnet, d'installer des plugins aussi bien front que back.  
-Soyez créatif.
+- Soyez créatif.
 - Pensez à commiter vos modifications au fur et à mesure de votre avancement. Si vous n'arrivez pas au bout du test, pas de panique, cela nous permettra de voir votre cheminement et la manière dont vous avez approché le développement.  
